@@ -1,0 +1,205 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 6023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker23
+-projectPath
+D:/Game-development/BehaviorTreeDemo
+-logFile
+Logs/AssetImportWorker23.log
+-srvPort
+51762
+Successfully changed project path to: D:/Game-development/BehaviorTreeDemo
+D:/Game-development/BehaviorTreeDemo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2216] Host "[IP] 10.81.5.166 [Port] 0 [Flags] 2 [Guid] 1322691366 [EditorId] 1322691366 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3QGG01RO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2216] Host "[IP] 10.81.5.166 [Port] 0 [Flags] 2 [Guid] 1322691366 [EditorId] 1322691366 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3QGG01RO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1197.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game-development/BehaviorTreeDemo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3011 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'D:/Unity Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.077091 seconds.
+- Loaded All Assemblies, in  7.419 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.698 seconds
+Domain Reload Profiling: 15117ms
+	BeginReloadAssembly (2081ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (1123ms)
+	RebuildNativeTypeToScriptingClass (143ms)
+	initialDomainReloadingComplete (1418ms)
+	LoadAllAssembliesAndSetupDomain (2654ms)
+		LoadAssemblies (2061ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2629ms)
+			TypeCache.Refresh (2627ms)
+				TypeCache.ScanAssembly (2469ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (7699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (149ms)
+			SetLoadedEditorAssemblies (252ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (5136ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game-development\BehaviorTreeDemo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game-development\BehaviorTreeDemo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 61.887 seconds
+Refreshing native plugins compatible for Editor in 1828.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 41.378 seconds
+Domain Reload Profiling: 103285ms
+	BeginReloadAssembly (6983ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (224ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (16ms)
+		CreateAndSetChildDomain (834ms)
+	RebuildCommonClasses (1513ms)
+	RebuildNativeTypeToScriptingClass (281ms)
+	initialDomainReloadingComplete (1694ms)
+	LoadAllAssembliesAndSetupDomain (51397ms)
+		LoadAssemblies (29944ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25030ms)
+			TypeCache.Refresh (23225ms)
+				TypeCache.ScanAssembly (22563ms)
+			ScanForSourceGeneratedMonoScriptInfo (1616ms)
+			ResolveRequiredComponents (189ms)
+	FinalizeReload (41418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (30089ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (202ms)
+			SetLoadedEditorAssemblies (164ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3600ms)
+			ProcessInitializeOnLoadAttributes (15137ms)
+			ProcessInitializeOnLoadMethodAttributes (10876ms)
+			AfterProcessingInitializeOnLoad (104ms)
+			EditorAssembliesLoaded (6ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (397ms)
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Error creating external process 'D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe' : The paging file is too small for this operation to complete.
+Error cleaning up external process: The handle is invalid.
+Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Shader compiler: failed to launch and initialize compiler executable, even after 10 retries
+Shader compiler initialization error: Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+Fatal Error! Shader compiler initialization error: Failed to launch UnityShaderCompiler.exe shader compiler! D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/UnityShaderCompiler.exe
+
+Crash!!!
+  ERROR: Error while initializing dbghelp.dll, GetLastError: 'The operation completed successfully.' (Address: 0000000000000000)
+
+========== OUTPUTTING STACK TRACE ==================
+
+  ERROR: Error while initializing dbghelp.dll, GetLastError: 'The operation completed successfully.' (Address: 0000000000000000)
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/thoma/AppData/Local/Temp/Unity/Editor/Crashes
