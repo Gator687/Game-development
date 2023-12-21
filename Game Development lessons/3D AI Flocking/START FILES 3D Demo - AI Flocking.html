@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head>
+</head><body style="font-family: 'Lato', sans-serif;font-size: 19px;color: #202122;"><p><strong>Installing the starting files:&nbsp;</strong>Download and unzip this folder:&nbsp;<a href="Unity-AI-book-Chapter05-starting-files.zip" target="_blank" rel="noopener">Unity-AI-book-Chapter05-starting-files.zip</a>. In Unity Hub choose "Add" &gt; "Add project from disk" and select the unzipped folder.&nbsp; If a warning says "To open this project, install the missing Editor version or open it with another version" click "Choose another Editor version" and choose&nbsp;<strong>your editor, NOT the original one</strong>. Each time it double-checks that you "really want to change editors," agree. It should open fine.&nbsp;</p>
+<p>Instructions are in the book at <a href="https://learning.oreilly.com/library/view/unity-artificial-intelligence/9781803238531/B17984_04_Epub.xhtml" target="_blank" rel="noopener">https://learning.oreilly.com/library/view/unity-artificial-intelligence/9781803238531/B17984_04_Epub.xhtml</a>.</p>
+<p>Here's what we do in the demo:</p>
+<ol>
+<li>Open the Chapter 5 project</li>
+<li>From Assets &gt; Scenes, open the scene “<strong>FlockingUnity</strong>.” There are three UnityFlockControllers, each with 11 “UnityFlock” boids all occupying the same position to begin with. They’ll explode apart to get away from each other on start, then often plow through the ground.</li>
+<li>Hide UnityFlockControllers 2 and 3 and experiment... To get a tighter formation, in Inspector set for all 11 boids:
+<ol>
+<li>minSpeed = 20</li>
+<li>toOriginRange = 17.0f;</li>
+<li>avoidanceRadius = 50.0f; //To lessen the initial “explosion”</li>
+</ol>
+</li>
+<li>To get the flock to move in a straight line rather than randomly, in <span style="font-family: Courier, 'Courier New', monospace; margin: 0 0 0rem 1rem; color: #006;">public class UnityFlock</span>:
+<p style="font-family: Courier, 'Courier New', monospace; margin: 0 0 0rem 1rem; color: #006;">void Start()</p>
+<p style="font-family: Courier, 'Courier New', monospace; margin: 0 0 0rem 1rem; color: #006;">{</p>
+<p style="font-family: Courier, 'Courier New', monospace; margin: 0 0 0rem 2rem; color: #006;">initialPosition = transform.position;</p>
+<p style="font-family: Courier, 'Courier New', monospace; margin: 0 0 0rem 2rem; color: #666;">//CalculateNextMovementPoint(); THEN ADD THIS NEXT LINE:</p>
+<p style="font-family: Courier, 'Courier New', monospace; margin: 0 0 0rem 2rem; color: #006;">nextMovementPoint = initialPosition + new Vector3(0, 0, -500);</p>
+<p style="font-family: Courier, 'Courier New', monospace; margin: 0 0 2rem 1rem; color: #006;">}</p>
+</li>
+</ol>
+<p>You can also open the scene named <strong>FlockingReynold</strong>. This one has the advantage that the boids generate using code, but they also don't seem to have the beautiful variety to their movement that they had in the other scene.</p>
+<ol>
+<li>Note there’s a FlockController again for the flock children...but no children.</li>
+<li>In the Project panel select the grey “Flock” cube Prefab (Assets &gt; Resources &gt; Prefabs) and note it has Rigidbody &amp; Sphere Collider &amp; Flock script. The Controller will generate these Flocks dynamically at start using Instantiate().</li>
+<li>In the Hierarchy there's a “Target” sphere entity as a moving leader for our flock to pursue. We've assigned its Transform in one of the scripts in the Inspector.</li>
+<li><strong>Assign the Target sphere a bright color</strong> (Yellow Material from Assets &gt; Resources &gt; Prefabs folder, perhaps)</li>
+<li>Rotate Camera's transform position <strong>y=165</strong> to face flock.</li>
+<li>Move the Target to <strong>x=0 y=10 z=0</strong>.&nbsp;</li>
+<li>Move the First Person Controller to <strong>x=0 y=15 z=-22.</strong></li>
+<li>Play the scene. Look to one side and down and see the yellow Target move in a circular motion. Look to another side and up and see the flock cubes fly in a circular motion. We can bring them closer to one another...</li>
+<li>Move the FlockController to <strong>x=0 y=15 z=0</strong>.</li>
+<li>Select the Target and find where its Target Movement script is connected in the Inspector. Set its <strong>Bound x=40 y=0 z=70.</strong></li>
+<li>Play the scene and watch the boids follow just above the Target, which changes direction.</li>
+</ol>
+<p></p></body></html>

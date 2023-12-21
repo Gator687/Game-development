@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html><head>
+</head><body style="font-family: 'Lato', sans-serif;font-size: 19px;color: #202122;"><p>Be sure to download the starting files for Chapter 4 from the next page, then scroll down this page to the video and follow along. Discussion of sensing starts shortly after the 38 min mark.</p>
+<h3>The Main Idea</h3>
+<p>In the Script attached to the NPC (non-player character) or to a Sensor object attached to the NPC, senses are essentially conditions: "if the NPC sees the Player, cause some reaction," and "if the NPC touches the Player, cause some reaction."</p>
+<h3>Sight</h3>
+<p>This method does a single check to see if the NPC "sees" the Player:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em; font-weight: bold;">void DetectAspect() {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 4em;">//Set up raycast; Direction will be from char's position to player position</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em; font-weight: bold;">rayDirection = (playerTrans.position – transform.position).normalized;</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 4em;">// if the Player is in the field of view (Check the angle between the AI character's forward vector and the direction vector between player and AI...is it within the FieldOfView angle? Because why bother making a Raycast if the player is out of our angle of vision?)</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em; font-weight: bold;">if ((Vector3.Angle(rayDirection, transform.forward)) &lt; FieldOfView) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 6em; font-weight: bold;">RaycastHit hit;</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 6em;">//send out a Raycast, returns true or false if it hit something</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 6em; font-weight: bold;">if (Physics.Raycast(transform.position, rayDirection, out hit, ViewDistance)) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 8em;">//store what it hit, if anything, in an object called 'aspect'</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 8em; font-weight: bold;">Aspect aspect = hit.collider.GetComponent&lt;Aspect&gt;();</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 8em;">// if it hit something that had an Aspect component attached to it</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 8em; font-weight: bold;">if (aspect != null) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 10em;">//If the aspect’s affiliation matches what we seek (the Player, perhaps?)</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 10em; font-weight: bold;">if (aspect.affiliation == targetAffiliation) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 12em; font-weight: bold;">print("Enemy Detected by Sight");</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 10em; font-weight: bold;">}</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 8em; font-weight: bold;">}</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 6em; font-weight: bold;">}</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em; font-weight: bold;">}</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em; font-weight: bold;">}</p>
+<p>Mentioned above is a reference to a class named Aspect (found in Assets &gt; Scripts &gt; Sensors &gt; Aspect), an elementary class with just one public property, called Affiliation, which the chapter uses as a way of tagging game objects as enemies or the player.</p>
+<h3>Touch</h3>
+<p>This method does a single check to see if the NPC "sees" the Player. This should not be new to you, as it uses colliders.</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 2em;">//this method triggers if its box collider collides with something</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em; font-weight: bold;">void OnTriggerEnter(Collider other) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em; font-weight: bold;">Aspect aspect = other.GetComponent<aspect>&lt;Aspect&gt;(); </aspect></p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em; font-weight: bold;">if (aspect != null) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #444444; margin: 0 0 0 6em;">//if the aspect’s affiliation matches what we seek (the Player, perhaps?)</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 6em; font-weight: bold;">if (aspect.affiliation == targetAffiliation) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 8em; font-weight: bold;">print("Enemy Detected by Touch");</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 6em; font-weight: bold;">}</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em; font-weight: bold;">}</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em; font-weight: bold;">}</p>
+<p><iframe src="https://player.vimeo.com/video/767886684?h=0187ffb9b6" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p></body></html>
