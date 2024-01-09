@@ -362,7 +362,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -388,7 +388,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 41306,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2438,7 +2438,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 49001,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2464,7 +2464,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 84697,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2"
@@ -3121,7 +3121,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 92930,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3147,7 +3147,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 140166,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -3815,7 +3815,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 148027,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -3841,7 +3841,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 180745,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2"
@@ -4415,7 +4415,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 189311,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -4441,7 +4441,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 219478,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
@@ -4968,7 +4968,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 228147,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -4994,7 +4994,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 261111,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
@@ -5532,7 +5532,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 269774,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -5558,7 +5558,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 329900,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -6337,7 +6337,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 338089,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -6363,7 +6363,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 370431,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -6886,7 +6886,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 378531,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -6912,7 +6912,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 409398,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2"
@@ -7430,7 +7430,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 418069,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -7456,7 +7456,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 449757,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
@@ -7976,7 +7976,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 458468,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -8002,7 +8002,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 488949,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
@@ -8511,7 +8511,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 497626,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -8537,7 +8537,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 531416,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -9086,7 +9086,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 539796,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -9112,7 +9112,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 574664,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2"
@@ -9675,7 +9675,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 583046,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -9701,7 +9701,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 613558,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -10214,7 +10214,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 622202,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -10240,7 +10240,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 704697,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -11157,7 +11157,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 713097,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -11183,7 +11183,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 745329,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -11707,7 +11707,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 753439,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -11733,7 +11733,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 783391,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -12261,7 +12261,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 792134,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -12287,7 +12287,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 826356,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
@@ -12887,7 +12887,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 834795,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -12913,7 +12913,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 869111,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -13488,7 +13488,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 877834,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -13514,7 +13514,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 931984,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -14313,7 +14313,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 940713,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -14339,7 +14339,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1027552,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -15336,7 +15336,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1036298,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -15362,7 +15362,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1114322,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -16258,7 +16258,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1122818,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -16284,7 +16284,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1173108,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -17005,7 +17005,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1182038,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -17031,7 +17031,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1214068,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -17560,7 +17560,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1222665,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -17586,7 +17586,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1254005,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -18156,7 +18156,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1263138,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -18182,7 +18182,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1301413,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -18775,7 +18775,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1310536,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -18801,7 +18801,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1340959,
       "PayloadLength": 46,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Unity-Repository\\",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Game-development\\",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -19349,7 +19349,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1350159,
       "PayloadLength": 33,
-      "PayloadDebugContentSnippet": "D:\\Unity-Repository\\Coding War",
+      "PayloadDebugContentSnippet": "D:\\Game-development\\Coding War",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -19361,7 +19361,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1350278,
-      "PayloadLength": 28983,
+      "PayloadLength": 29019,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19373,7 +19373,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1379348,
+      "PayloadOffset": 1379384,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19617,6 +19617,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/Scripts/CharacterMover.cs",
         "Assets/Scripts/CreatePrefab.cs",
         "Assets/Scripts/GameManager.cs",
         "Assets/Scripts/MoveScript.cs",
@@ -19859,7 +19860,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1379444,
+      "PayloadOffset": 1379480,
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -20943,7 +20944,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"D:/Unity Editor/2022.3.5f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"D:/Unity-Repository/Coding Warmup/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/Managed/UnityEngine\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Unity-Repository/Coding Warmup/Library/ScriptAssemblies\" -s=\"D:/Unity-Repository/Coding Warmup/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Unity-Repository/Coding Warmup/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"D:/Unity-Repository/Coding Warmup/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/Unity Editor/2022.3.5f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Game-development/Coding Warmup/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Game-development/Coding Warmup/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"D:/Game-development/Coding Warmup/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/Managed/UnityEngine\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Unity Editor/2022.3.5f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Game-development/Coding Warmup/Library/ScriptAssemblies\" -s=\"D:/Game-development/Coding Warmup/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Game-development/Coding Warmup/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"D:/Game-development/Coding Warmup/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Unity Editor/2022.3.5f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -21229,6 +21230,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "D:/Unity-Repository/Coding Warmup/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "D:/Game-development/Coding Warmup/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
