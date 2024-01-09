@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html><head>
+</head>
+<body style="font-family: 'Lato', sans-serif;font-size: 19px;color: #202122;">
+<p>Ready to learn how to create an executable file of your game? That's called creating a Build, and from within Unity you will need to adjust the settings at File -&gt; <strong>Build Settings</strong>, and the other settings found by clicking <strong>Player Settings</strong> in the bottom-left corner of that panel.</p>
+<p>At the O'Reilly website, check out Chapter 21 of the book<br><a rel="noreferrer noopener" target="_blank" href="https://learning.oreilly.com/library/view/hands-on-unity-2021/9781801071482/">Hands-On Unity 2021 Game Development - Second Edition</a><br>by Nicolas Alejandro Borromeo<br>Packt Publishing</p>
+<p>Below I cover some of the most basic points mentioned in that chapter:</p>
+<p><iframe src="https://player.vimeo.com/video/778596940?h=ee087e80fe" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></p>
+<h4 style="margin: 2rem 0 0 0;">Exiting a Fullscreen Game</h4>
+<p>To enable the player to quit your game while playing fullscreen, implement the line <strong>Application.Quit();</strong> triggered by the user clicking an exit button or, as shown below, by the user hitting “esc”:</p>
+<p style="margin: 1rem 0 0 2rem; font-family: 'Courier New', Courier, monospace;">private void Update()</p>
+<p style="margin: 1rem 0 0 4rem; font-family: 'Courier New', Courier, monospace;">if (Input.GetKeyDown(KeyCode.Escape))</p>
+<p style="margin: 1rem 0 0 4rem; font-family: 'Courier New', Courier, monospace;">{</p>
+<p style="margin: 1rem 0 0 6rem; font-family: 'Courier New', Courier, monospace;">Application.Quit();</p>
+<p style="margin: 1rem 0 0 4rem; font-family: 'Courier New', Courier, monospace;">}</p>
+<p style="margin: 1rem 0 0 2rem; font-family: 'Courier New', Courier, monospace;">}</p>
+</body></html>

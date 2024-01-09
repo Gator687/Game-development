@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html><head>
+</head><body style="font-family: 'Lato', sans-serif;font-size: 19px;color: #202122;"><p>Be sure to download the starting files for Chapter 2 from the next page, then scroll down this page and watch the video and follow along.&nbsp;</p>
+<h3>The Main Code Structure</h3>
+<p>In the Script attached to the NPC (non-player character), set up an Enum object in which you list constants representing all the states in which you might need to put your NPC, such as Patrol, Chase, Attack, etc.:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em;">public enum <strong>FSMState</strong> {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;"><strong>None,</strong></p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;"><strong>Patrol,</strong></p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;"><strong>Chase,</strong></p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;"><strong>Attack,</strong></p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;"><strong>Dead,</strong></p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em;">}</p>
+<p>In the Update (the book Chapter 2 example does this with a custom FSMUpdate set up by the base class) which runs many times per second, we check to see which state this NPC is currently in, and run the particular Update function that corresponds to the state:</p>
+<p>Theoretically, in various parts of our code we change the state of the NPC to one of several states, such as Patrol, Chase, Attack, etc. In the Update (or custom FSMUpdate set up by the base class) which runs many times per second, we check to see which state this NPC is currently in, and run the particular Update function that corresponds to the state:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em;">protected override void&nbsp;<strong>Update()</strong> {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;">switch (<strong>curState</strong>) {</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em;">case FSMState.<strong>Patrol</strong>:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">UpdatePatrolState();</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">break;</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em;">case FSMState.<strong>Chase</strong>:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">UpdateChaseState();</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">break;</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em;">case FSMState.<strong>Attack</strong>:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">UpdateAttackState();</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">break;</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 4em;">case FSMState.<strong>Dead</strong>:</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">UpdateDeadState();</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 5em;">break;</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 3em;">}</p>
+<p>Then those functions like UpdatePatrolState() are defined after the Update definition is done, and each does something particular, such as move the NPC in a different way... that part may be very different from the book chapter, depending on your project.</p>
+<p>When a part of the code wants to change the state of the NPC, they just have to set the curState differently, because you know the Update code shown above will constantly be checking that...</p>
+<p style="font-family: 'Courier New', Courier, monospace; color: #000066; margin: 0 0 0 2em;">curState = FSMState.Chase;</p>
+<p>Note: Seek ways to keep your code efficient. For example, if all your state update functions like UpdatePatrolState will cause your NPC to move to a destination, just have those functions set the same destination Vector3 variable to a new and different destination (toward the player, away from the player, etc.), but don't repeat the code that moves the NPC towards that destination in every one of those functions. Instead have the code that moves the NPC towards their current destination ONCE, in the regular Update or FixedUpdate function.</p>
+<div style="background-color: #ffcccc; padding: 1rem; margin: .5rem 0;">
+<h5>Do You Dare Try--Advanced FSM?</h5>
+<p>After you examine the Chapter 2 SimpleFSM scene that uses the FSM.cs and SimpleFSM.cs scripts in Assets &gt; Scripts &gt; SimpleFSM, you might try looking at the AdvancedFSM scene, which uses additional scripts in the Assets &gt; Scripts &gt; AdvancedFSM folder.</p>
+<p>It avoids big switch/if structures by having a separate class for each state: PatrolState.cs, ChaseState.cs, AttackState.cs, and DeadState. At all times, the script NPCTankController.cs stores the proper one of those classes as CurrentState, and its FixedUpdate() method simply says to run CurrentState.CheckTransitionRules() to see it it's time to change to a different state, and CurrentState.RunState() to let the current state "do its thing." So each of the state classes defines CheckTransitionRules() and RunState() for itself.</p>
+<p>It's a little tough to look at the code because the AdvancedFSM script sets up one object ("Transition") to list the various transitions and another object ("FSMStateID") to list the various states; and then the FSMState script sets up a Dictionary called "map" to store Transition/FSMStateID pairs. Consequently, whenever any script need to access those items, they need to access the map dictionary.</p>
+</div>
+<p><iframe src="https://player.vimeo.com/video/767669017?h=a6c3ffdf92" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p></body></html>
